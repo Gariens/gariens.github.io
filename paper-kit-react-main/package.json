@@ -52,6 +52,5 @@
     "svgo": "3.0.2"
   },
   "description": "Smaakmakers Eindhoven",
-  "main": "src/assets/scss/paper-kit.scss",
-  "homepage": "https://gariens.github.io/#/index"
+  "main": "src/assets/scss/paper-kit.scss"
 }
