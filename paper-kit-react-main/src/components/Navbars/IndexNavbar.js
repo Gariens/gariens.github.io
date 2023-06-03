@@ -69,9 +69,9 @@ function IndexNavbar() {
             data-placement="bottom"
             href="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="Smaakmakers"
           >
-            Paper Kit React
+            Smaakmakers
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
