@@ -31,14 +31,14 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/smaakmakersterras.jpg") + ")",
+            "url(" + require("assets/img/Smaakmakers.jpg") + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1><strong>Smaakmakers Onvergetelijk Koffiecafe</strong></h1>
+              <h1><strong>Smaakmakers Onvergetelijk Koffiecafé</strong></h1>
             </div>
             <h2 className="presentation-subtitle text-center">
               Focus op de dingen die nog wel kunnen!

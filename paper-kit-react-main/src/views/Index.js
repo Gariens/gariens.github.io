@@ -54,13 +54,15 @@ function Index() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Let's talk product</h2>
+                <h2 className="title">De Smaakmakers Visie</h2>
                 <h5 className="description">
-                  This is the paragraph where you can write more details about
-                  your product. Keep you user engaged by providing meaningful
-                  information. Remember that by this time, the user is curious,
-                  otherwise he wouldn't scroll to get here. Add a button if you
-                  want the user to see more.
+                Smaakmakers is een koffiecafé in Eindhoven waar we samenwerken 
+                met mensen met dementie. Een plek waar we focussen op alles 
+                wat wél kan. Met duidelijke instructies, wat begeleiding en 
+                een speciale werkwijze serveren we samen de lekkerste 
+                lunchgerechten en natuurlijk goede koffie! Want wij 
+                dromen van een plek voor mensen met dementie, midden in de 
+                maatschappij.
                 </h5>
                 <br />
                 <Button
@@ -69,77 +71,61 @@ function Index() {
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
-                  See Details
+                  Meer info
                 </Button>
               </Col>
             </Row>
             <br />
             <br />
             <Row>
-              <Col md="3">
+              <Col md="6">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-album-2" />
+                    <i className="nc-icon nc-tile-56" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
+                    <h4 className="info-title">Menu</h4>
+                    <br />
                     <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
+                      Kom langs voor een aangeklede kop koffie en een heerlijke lunch.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
-                      See more
+                      Bekijk het menu
                     </Button>
                   </div>
                 </div>
               </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-bulb-63" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
-                    <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-chart-bar-32" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Statistics</h4>
-                    <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
+              <Col md="6">
                 <div className="info">
                   <div className="icon icon-info">
                     <i className="nc-icon nc-sun-fog-29" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
+                    <h4 className="info-title">Midden in de maatschappij</h4>
+                    <br />
                     <p>
-                      Find unique and handmade delightful designs related items
-                      directly from our sellers.
+                      Ons unieke koffiecafé is gelegen aan het edisonplein in Woensel-west in Eindhoven.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
-                      See more
+                      Open navigatie
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+              <Col md="6">
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-satisfied" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Mantelzorgers</h4>
+                    <br />
+                    <p>
+                      Wilt u meer informatie over de dagbesteding bekijk 
+                      dan de volgende informatie pagina.
+                    </p>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Bekijk dagbestedings informatie
                     </Button>
                   </div>
                 </div>
