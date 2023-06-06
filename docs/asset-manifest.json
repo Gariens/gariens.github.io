@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4edd9a4b.css",
-    "main.js": "/static/js/main.9a20de44.js",
+    "main.js": "/static/js/main.a45e378a.js",
+    "static/media/Smaakmakers.jpg": "/static/media/Smaakmakers.09c67bdf014d4153cba6.jpg",
     "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
@@ -20,13 +21,12 @@
     "static/media/erik-lucatero-2.jpg": "/static/media/erik-lucatero-2.d09715abe0463c58d6be.jpg",
     "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
     "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
-    "static/media/smaakmakersterras.jpg": "/static/media/smaakmakersterras.c4fcc8a4fd24645a7b1c.jpg",
     "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.4edd9a4b.css",
-    "static/js/main.9a20de44.js"
+    "static/js/main.a45e378a.js"
   ]
 }
