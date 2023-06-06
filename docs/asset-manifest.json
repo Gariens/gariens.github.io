@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.4edd9a4b.css",
-    "main.js": "/static/js/main.00cd68a5.js",
+    "main.js": "/static/js/main.327fcd50.js",
     "static/media/Melissa.png": "/static/media/Melissa.4e25217ec58c6d236c5b.png",
     "static/media/Smaakmakers.jpg": "/static/media/Smaakmakers.09c67bdf014d4153cba6.jpg",
+    "static/media/Jolande.png": "/static/media/Jolande.cf0a7b8ec7210a729bb8.png",
     "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
@@ -28,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.4edd9a4b.css",
-    "static/js/main.00cd68a5.js"
+    "static/js/main.327fcd50.js"
   ]
 }
