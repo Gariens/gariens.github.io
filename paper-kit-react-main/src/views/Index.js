@@ -68,7 +68,6 @@ function Index() {
                 <Button
                   className="btn-round"
                   color="info"
-                  href="#menu"
                 >
                   Meer info
                 </Button>
@@ -152,7 +151,7 @@ function Index() {
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/joe-gardner-2.jpg")}
+                        src={require("assets/img/Jolande.png")}
                       />
                     </a>
                   </div>
