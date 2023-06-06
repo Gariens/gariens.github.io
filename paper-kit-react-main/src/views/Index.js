@@ -56,20 +56,19 @@ function Index() {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">De Smaakmakers Visie</h2>
                 <h5 className="description">
-                Smaakmakers is een koffiecafé in Eindhoven waar we samenwerken 
-                met mensen met dementie. Een plek waar we focussen op alles 
-                wat wél kan. Met duidelijke instructies, wat begeleiding en 
-                een speciale werkwijze serveren we samen de lekkerste 
-                lunchgerechten en natuurlijk goede koffie! Want wij 
-                dromen van een plek voor mensen met dementie, midden in de 
-                maatschappij.
+                  Smaakmakers is een koffiecafé in Eindhoven waar we samenwerken
+                  met mensen met dementie. Een plek waar we focussen op alles
+                  wat wél kan. Met duidelijke instructies, wat begeleiding en
+                  een speciale werkwijze serveren we samen de lekkerste
+                  lunchgerechten en natuurlijk goede koffie! Want wij
+                  dromen van een plek voor mensen met dementie, midden in de
+                  maatschappij.
                 </h5>
                 <br />
                 <Button
                   className="btn-round"
                   color="info"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  href="#menu"
                 >
                   Meer info
                 </Button>
@@ -77,8 +76,133 @@ function Index() {
             </Row>
             <br />
             <br />
+          </Container>
+        </div>
+        <div className="section section-dark text-center">
+          <Container>
+            <h2 className="title">Wie zijn we?</h2>
             <Row>
               <Col md="6">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require("assets/img/Melissa.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h4">Melissa de Laat</CardTitle>
+                        <h6 className="card-category">Concept ontwikkelaar in de dementiezorg</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      Als conceptontwikkelaar binnen de dementiezorg (Melissa)
+                      en voormalig eigenaar van een eigen horecaonderneming
+                      (Jolande), gaan wij deze uitdaging aan. Melissa:
+                      ‘De afgelopen 4 jaar heb ik veel ervaring opgedaan wat
+                      betreft koken met mensen met dementie en de effecten hiervan.
+                      Als conceptontwikkelaar heb ik namelijk 4 jaar geleden het project
+                      Groen & Grijs, kookworkshops voor grootouders met dementie
+                      en hun kleinkinderen, ontwikkeld en uitgerold binnen de
+                      regio midden-Brabant. De sfeer en het zichtbare effect
+                      tijdens zo’n workshop toveren een glimlach op ieders gezicht.
+                      De meest bijzondere effecten van samen koken? We focussen ons
+                      automatisch op wat we samen allemaal nog wel kunnen. En het
+                      verbetert de onderlinge relatie - van zorgen voor, naar
+                      samenwerken. Na deze ervaringen smaakte het bij mij al heel
+                      snel naar meer! Het begin van een droom. Een eigen plek,
+                      waar we dagelijks samen koken en focussen op wat wel kan.’
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-google-plus" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-linkedin" />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="6">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require("assets/img/faces/joe-gardner-2.jpg")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h4">Jolande Verbakel</CardTitle>
+                        <h6 className="card-category">Horeca ondernemer</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      De horecaervaring en - achtergrond neemt Jolande mee naar Smaakmakers. Een perfect duo, al zeggen we het zelf. Niet alleen op zakelijk gebied en ambities, maar ook in de keuken. Beide zijn wij gek op koken, bakken, mensen ontvangen, gezelligheid en bovenal lekker eten. Melissa: ‘Van huis uit heb ik geleerd dat koffie, met gebak natuurlijk, mensen samenbrengt. Een momentje van rust of juist van samenkomen. Ik kan niet wachten om straks het team van Smaakmakers samen te laten komen met de buurt en de rest van Eindhoven of misschien wel Nederland?!’.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-google-plus" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-linkedin" />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="section text-center">
+          <Container>
+            <Row>
+              <Col md="6">
+                <div id="menu" />
                 <div className="info">
                   <div className="icon icon-info">
                     <i className="nc-icon nc-tile-56" />
@@ -112,7 +236,7 @@ function Index() {
                   </div>
                 </div>
               </Col>
-              <Col md="6">
+              <Col md="6">:
                 <div className="info">
                   <div className="icon icon-info">
                     <i className="nc-icon nc-satisfied" />
@@ -121,11 +245,11 @@ function Index() {
                     <h4 className="info-title">Mantelzorgers</h4>
                     <br />
                     <p>
-                      Wilt u meer informatie over de dagbesteding bekijk 
+                      Wilt u meer informatie over de dagbesteding bekijk
                       dan de volgende informatie pagina.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
-                      Bekijk dagbestedings informatie
+                      Een dag bij smaakmakers
                     </Button>
                   </div>
                 </div>
@@ -135,220 +259,47 @@ function Index() {
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
-            <Row>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Henry Ford</CardTitle>
-                        <h6 className="card-category">Product Manager</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/faces/joe-gardner-2.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
-                        <h6 className="card-category">Designer</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/faces/erik-lucatero-2.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Robert Orben</CardTitle>
-                        <h6 className="card-category">Developer</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
+          <Row>
+              <Col className="ml-auto mr-auto" md="8">
+                <h2 className="title">Openingstijden</h2>
+                <h5 className="description">
+                Di t/ t/m Za van 09:30 - 16:00
+                </h5>
+                <br />
               </Col>
             </Row>
-          </Container>
-        </div>
-        <div className="section landing-section">
-          <Container>
+            <Col className="ml-auto mr-auto" md="4">
+              <Button className="btn-fill" href="mailto:info@bijsmaakmakers.nl" color="danger" size="lg">
+                Send Message
+              </Button>
+              <br />
+              <br />
+            </Col>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Keep in touch?</h2>
-                <Form className="contact-form">
-                  <Row>
-                    <Col md="6">
-                      <label>Name</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Name" type="text" />
-                      </InputGroup>
-                    </Col>
-                    <Col md="6">
-                      <label>Email</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Email" type="text" />
-                      </InputGroup>
-                    </Col>
-                  </Row>
-                  <label>Message</label>
-                  <Input
-                    placeholder="Tell us your thoughts and feelings..."
-                    type="textarea"
-                    rows="4"
-                  />
-                  <Row>
-                    <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
-                        Send Message
-                      </Button>
-                    </Col>
-                  </Row>
-                </Form>
+                <h2 className="title">Contactgegevens</h2>
+                <h5 className="description">
+                Edisonplein 6a, 5621 HV Eindhoven 
+                </h5>
+                <br />
               </Col>
             </Row>
+            <Col className="ml-auto mr-auto" md="4">
+              <Button className="btn-fill" href="https://goo.gl/maps/AowUK7G7KKKMwma77" color="danger" size="lg">
+                Navigate
+              </Button>
+            </Col>
+          </Container>
+          <Container>
+          <br />
+          <br />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.2551443390007!2d5.455193315768007!3d51.45347177962634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6d9b0735b25bd%3A0x6eeb83adf42ba573!2sSmaakmakers%20Onvergetelijk%20Koffiecaf%C3%A9!5e0!3m2!1snl!2snl!4v1686088408025!5m2!1snl!2snl" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </Container>
         </div>
       </div>
-        <SectionCarousel />   
-        <SectionLogin />
-        <SectionExamples />
-        <SectionDownload />
-        <DemoFooter />
+
+      <SectionExamples />
+      <DemoFooter />
     </>
   );
 }
