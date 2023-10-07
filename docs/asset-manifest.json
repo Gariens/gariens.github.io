@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d2c060c.css",
-    "main.js": "/static/js/main.0933272a.js",
+    "main.css": "/static/css/main.464dc7af.css",
+    "main.js": "/static/js/main.7cdd6352.js",
     "static/media/Smaakmakers-CrowdaboutNow-campagne.mp4": "/static/media/Smaakmakers-CrowdaboutNow-campagne.b816aaa7f34b41242f07.mp4",
     "static/media/Melissa.png": "/static/media/Melissa.4e25217ec58c6d236c5b.png",
     "static/media/Jolande.png": "/static/media/Jolande.cf0a7b8ec7210a729bb8.png",
+    "static/media/5.jpeg": "/static/media/5.fd838c1144c22b0d5826.jpeg",
     "static/media/main-achtergrond.jpeg": "/static/media/main-achtergrond.a3c156e98542978d0b21.jpeg",
+    "static/media/4.jpeg": "/static/media/4.5bf37807e1a7df49a4d2.jpeg",
+    "static/media/3.jpeg": "/static/media/3.fe72b21161ae26bd396d.jpeg",
     "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
+    "static/media/1.jpeg": "/static/media/1.7d9379336f4d33241858.jpeg",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
     "static/media/ilya-yakover.jpg": "/static/media/ilya-yakover.751c23c0dc4ff39577cf.jpg",
     "static/media/federico-beccari.jpg": "/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
@@ -30,7 +34,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.3d2c060c.css",
-    "static/js/main.0933272a.js"
+    "static/css/main.464dc7af.css",
+    "static/js/main.7cdd6352.js"
   ]
 }

@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 // reactstrap components
 import {
@@ -21,6 +21,7 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import CarouselComponent from "components/Carousel";
 
 // index sections
 import SectionButtons from "views/index-sections/SectionButtons.js";
@@ -44,7 +45,8 @@ function Index() {
     return function cleanup() {
       document.body.classList.remove("index");
     };
-  });
+  }, []); // Properly close the useEffect with []
+  
   return (
     <>
       <IndexNavbar />
@@ -53,7 +55,7 @@ function Index() {
         <div className="section text-center">
           <Container>
             <Row>
-              <Col className="ml-auto mr-auto" md="8">
+              <Col className="ml-auto mr-auto" md="5">
                 <h2 className="title">De Smaakmakers Visie</h2>
                 <h5 className="description">
                   Smaakmakers is een koffiecafé in Eindhoven waar we samenwerken
@@ -72,11 +74,16 @@ function Index() {
                   Meer info
                 </Button>
               </Col>
+              <Col className="ml-auto mr-auto" md="4">
+               <CarouselComponent className="carousel" />
+              </Col>
             </Row>
             <br />
             <br />
           </Container>
         </div>
+      </div>
+      <div className="main">
         <div className="section section-dark text-center">
           <Container>
             <h2 className="title">Wie zijn we?</h2>
@@ -197,6 +204,7 @@ function Index() {
             </Row>
           </Container>
         </div>
+        
         <div className="section text-center">
           <Container>
             <Row>
@@ -304,7 +312,6 @@ function Index() {
         </Container>
         </div>
       </div>
-
       <SectionExamples />
       <DemoFooter />
     </>

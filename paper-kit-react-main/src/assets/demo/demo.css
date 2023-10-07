@@ -16,6 +16,22 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+/* YourCarouselComponentStyles.css */
+.carousel-container {
+  max-height: 100%; /* Set a maximum height equal to the viewport height */
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+}
+
+.carousel img {
+  max-width: 80%; /* Set a maximum width to fit the viewport width */
+  max-height: 80%; /* Set a maximum height to fit the viewport height */
+  width: auto;
+  height: auto; /* Allow the images to scale proportionally */
+}
+
 .tim-row {
   margin-bottom: 20px;
 }
