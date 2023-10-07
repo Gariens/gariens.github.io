@@ -65,19 +65,32 @@ function IndexHeader() {
       <Modal isOpen={modal} toggle={toggleModal} size="lg">
         {/* <ModalHeader toggle={toggleModal}>Video Title</ModalHeader> */}
         <ModalBody>
-          {/* Replace the video source with your actual video file */}
-          <video controls width="100%">
-            <source src={require("assets/video/Smaakmakers-CrowdaboutNow-campagne.mp4")} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <div className="embed-responsive embed-responsive-16by9">
+            {/* Replace the video source with your actual video file */}
+            <video controls className="embed-responsive-item">
+              <source
+                src={require("assets/video/Smaakmakers-CrowdaboutNow-campagne.mp4")}
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </ModalBody>
       </Modal>
 
-      {/* Add custom CSS to style the modal background */}
       <style>
         {`
           .modal-content {
-            background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+            background: rgba(0, 0, 0, 0.5);
+          }
+
+          .embed-responsive {
+            margin: 0 auto;
+          }
+
+          .embed-responsive video {
+            width: 100%;
+            height: auto;
           }
         `}
       </style>
