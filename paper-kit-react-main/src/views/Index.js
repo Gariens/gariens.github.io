@@ -292,8 +292,16 @@ function Index() {
           <Container>
           <br />
           <br />
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.2551443390007!2d5.455193315768007!3d51.45347177962634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6d9b0735b25bd%3A0x6eeb83adf42ba573!2sSmaakmakers%20Onvergetelijk%20Koffiecaf%C3%A9!5e0!3m2!1snl!2snl!4v1686088408025!5m2!1snl!2snl" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </Container>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.2551443390007!2d5.455193315768007!3d51.45347177962634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6d9b0735b25bd%3A0x6eeb83adf42ba573!2sSmaakmakers%20Onvergetelijk%20Koffiecaf%C3%A9!5e0!3m2!1snl!2snl!4v1686088408025!5m2!1snl!2snl"
+            width="100%" // Set the width to 100% for responsiveness
+            height="450" // Set a specific height for mobile devices (adjust as needed)
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </Container>
         </div>
       </div>
 

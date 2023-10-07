@@ -1,5 +1,5 @@
 -- dev command
-npm run dev
+npm start
 
 -- Build command
 npm run build
