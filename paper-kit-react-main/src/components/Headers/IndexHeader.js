@@ -17,40 +17,73 @@
 
 */
 /*eslint-disable*/
-import React from "react";
-
-// reactstrap components
-import { Container } from "reactstrap";
+import React, { useState } from "react";
+import { Container, Button, Modal, ModalHeader, ModalBody } from "reactstrap";
 
 // core components
 
 function IndexHeader() {
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
+
   return (
     <>
       <div
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/Smaakmakers.jpg") + ")",
+            "url(" + require("assets/img/main-achtergrond.jpeg") + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1><strong>Smaakmakers Onvergetelijk Koffiecafé</strong></h1>
+              <h1><strong>Voor een onvergetelijk kopje koffie.</strong></h1>
+              <br />
+              <Button 
+              className="btn-round mr-1"
+              color="neutral"
+              target="_blank"
+              outline onClick={toggleModal}
+              >
+                <i className="fa fa-play" />
+                Impressie video
+              </Button>
+              
             </div>
-            <h2 className="presentation-subtitle text-center">
-              Focus op de dingen die nog wel kunnen!
-            </h2>
           </Container>
         </div>
         <h6 className="category category-absolute">
           Melissa & Jolande
         </h6>
       </div>
+
+      <Modal isOpen={modal} toggle={toggleModal} size="lg">
+        {/* <ModalHeader toggle={toggleModal}>Video Title</ModalHeader> */}
+        <ModalBody>
+          {/* Replace the video source with your actual video file */}
+          <video controls width="100%">
+            <source src={require("assets/video/Smaakmakers-CrowdaboutNow-campagne.mp4")} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </ModalBody>
+      </Modal>
+
+      {/* Add custom CSS to style the modal background */}
+      <style>
+        {`
+          .modal-content {
+            background: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+          }
+        `}
+      </style>
     </>
   );
 }
 
 export default IndexHeader;
+

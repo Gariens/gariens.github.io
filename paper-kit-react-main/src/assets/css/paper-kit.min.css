@@ -5678,7 +5678,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-top: 10px;
 }
 .title-brand {
-  max-width: 730px;
   margin: 0 auto;
   position: relative;
   text-align: center;

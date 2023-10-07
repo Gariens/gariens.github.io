@@ -65,14 +65,7 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand
-            data-placement="bottom"
-            href="/index"
-            target="_blank"
-            title="Smaakmakers"
-          >
-            Smaakmakers
-          </NavbarBrand>
+          <img src={require('assets/img/smaakmakers-logo.png')} alt="Logo" />
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
