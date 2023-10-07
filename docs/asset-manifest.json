@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3d2c060c.css",
-    "main.js": "/static/js/main.a1c03a39.js",
+    "main.js": "/static/js/main.0933272a.js",
     "static/media/Smaakmakers-CrowdaboutNow-campagne.mp4": "/static/media/Smaakmakers-CrowdaboutNow-campagne.b816aaa7f34b41242f07.mp4",
     "static/media/Melissa.png": "/static/media/Melissa.4e25217ec58c6d236c5b.png",
     "static/media/Jolande.png": "/static/media/Jolande.cf0a7b8ec7210a729bb8.png",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.3d2c060c.css",
-    "static/js/main.a1c03a39.js"
+    "static/js/main.0933272a.js"
   ]
 }
