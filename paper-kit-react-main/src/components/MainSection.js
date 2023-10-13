@@ -49,7 +49,7 @@ function MainSection() {
             {/* Replace the video source with your actual video file */}
             <video controls className="embed-responsive-item">
               <source
-                src={require("assets/video/Smaakmakers-Promotie-Filmpje-v4-FINAL.mp4")}
+                src={require("assets/video/Smaakmakers-Promotie-Film.mp4")}
                 type="video/mp4"
               />
               Your browser does not support the video tag.
