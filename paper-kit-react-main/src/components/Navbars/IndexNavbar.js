@@ -70,7 +70,7 @@ function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           {/* Use the imported SVG as the source */}
-          <img src={logo} alt="Logo" style={{ width: "200px", height: "auto", marginLeft: "20px" }} />
+          <img src={logo} alt="Logo" style={{ width: "175px", height: "auto", marginLeft: "20px" }} />
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
