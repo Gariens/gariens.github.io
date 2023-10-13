@@ -21,8 +21,12 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+<<<<<<< HEAD
 import PdfViewerModal from 'components/PdfViewerModal'; 
 import MainSection from "components/MainSection";
+=======
+import CarouselComponent from "components/Carousel";
+>>>>>>> 6c54be82059b899c536af8a02a07f198daf69aea
 
 // index sections
 import SectionButtons from "views/index-sections/SectionButtons.js";
@@ -47,8 +51,13 @@ function Index() {
     return function cleanup() {
       document.body.classList.remove("index");
     };
+<<<<<<< HEAD
   }, []); 
 
+=======
+  }, []); // Properly close the useEffect with []
+  
+>>>>>>> 6c54be82059b899c536af8a02a07f198daf69aea
   return (
     <>
       <IndexNavbar />
@@ -60,6 +69,7 @@ function Index() {
         <div className="section text-center">
           <Container>
             <Row>
+<<<<<<< HEAD
               <Col md="6">
                 <div id="menu" />
                 <div className="info">
@@ -110,10 +120,35 @@ function Index() {
                     </Button>
                   </div>
                 </div>
+=======
+              <Col className="ml-auto mr-auto" md="5">
+                <h2 className="title">De Smaakmakers Visie</h2>
+                <h5 className="description">
+                  Smaakmakers is een koffiecafé in Eindhoven waar we samenwerken
+                  met mensen met dementie. Een plek waar we focussen op alles
+                  wat wél kan. Met duidelijke instructies, wat begeleiding en
+                  een speciale werkwijze serveren we samen de lekkerste
+                  lunchgerechten en natuurlijk goede koffie! Want wij
+                  dromen van een plek voor mensen met dementie, midden in de
+                  maatschappij.
+                </h5>
+                <br />
+                <Button
+                  className="btn-round"
+                  color="info"
+                >
+                  Meer info
+                </Button>
+>>>>>>> 6c54be82059b899c536af8a02a07f198daf69aea
+              </Col>
+              <Col className="ml-auto mr-auto" md="4">
+               <CarouselComponent className="carousel" />
               </Col>
             </Row>
           </Container>
         </div>
+      </div>
+      <div className="main">
         <div className="section section-dark text-center">
           <Container>
             <h2 className="title">Wie zijn we?</h2>
@@ -234,6 +269,69 @@ function Index() {
             </Row>
           </Container>
         </div>
+<<<<<<< HEAD
+=======
+        
+        <div className="section text-center">
+          <Container>
+            <Row>
+              <Col md="6">
+                <div id="menu" />
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-tile-56" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Menu</h4>
+                    <br />
+                    <p className="description">
+                      Kom langs voor een aangeklede kop koffie en een heerlijke lunch.
+                    </p>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Bekijk het menu
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+              <Col md="6">
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-sun-fog-29" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Midden in de maatschappij</h4>
+                    <br />
+                    <p>
+                      Ons unieke koffiecafé is gelegen aan het edisonplein in Woensel-west in Eindhoven.
+                    </p>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Open navigatie
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+              <Col md="6">:
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-satisfied" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Mantelzorgers</h4>
+                    <br />
+                    <p>
+                      Wilt u meer informatie over de dagbesteding bekijk
+                      dan de volgende informatie pagina.
+                    </p>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Een dag bij smaakmakers
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+>>>>>>> 6c54be82059b899c536af8a02a07f198daf69aea
         <div className="section section-dark text-center">
           <Container>
           <Row>
