@@ -38,6 +38,7 @@ import SectionDark from "views/index-sections/SectionDark.js";
 import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
+import CenterSection from "components/CenterSection";
 
 
 function Index() {
@@ -56,67 +57,7 @@ function Index() {
       <div className="main" style={{ background: "#F2EFEB" }}>
       <MainSection />
       </div>
-      <div className="main">
-        <div className="section text-center">
-          <Container>
-            <Row>
-              <Col md="6">
-                <div id="menu" />
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-tile-56" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Menu</h4>
-                    <br />
-                    <p className="description">
-                      Kom langs voor een aangeklede kop koffie en een heerlijke lunch.
-                    </p>
-                    <PdfViewerModal pdfUrl="/assets/pdf/Menu-oktober-2.0.pdf" /> 
-                    </div>
-                </div>
-              </Col>
-              <Col md="6">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Midden in de maatschappij</h4>
-                    <br />
-                    <p>
-                      Ons unieke koffiecafé is gelegen aan het edisonplein in Woensel-west in Eindhoven.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      Open navigatie
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="6">:
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-satisfied" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Mantelzorgers</h4>
-                    <br />
-                    <p>
-                      Wilt u meer informatie over de dagbesteding bekijk
-                      dan de volgende informatie pagina.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      Een dag bij smaakmakers
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col className="ml-auto mr-auto" md="4">
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </div>
+           <CenterSection />
       <div className="main">
         <div className="section section-dark text-center">
           <Container>

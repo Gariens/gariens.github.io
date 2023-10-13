@@ -32,12 +32,10 @@ function MainSection() {
                 Een kijkje in de keuken
               </Button>
               </Col>
-              <Col className="ml-auto mr-auto" md="4">
+              <Col className="ml-auto mr-auto" md="30">
                <SectionCarousel/>
               </Col>
             </Row>
-            <br />
-            <br />
           </Container>
         </div>
       </div>

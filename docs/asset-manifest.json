@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.e70193d0.css",
-    "main.js": "/static/js/main.0b0af705.js",
+    "main.js": "/static/js/main.1f6ae3f8.js",
     "static/media/Smaakmakers-Promotie-Film.mp4": "/static/media/Smaakmakers-Promotie-Film.5475989f546b11e404ca.mp4",
+    "static/media/Menu-oktober-2.0.pdf": "/static/media/Menu-oktober-2.0.746699d411de2bdec89c.pdf",
     "static/media/Melissa.png": "/static/media/Melissa.4e25217ec58c6d236c5b.png",
+    "static/media/high-tea-uitserveren.jpeg": "/static/media/high-tea-uitserveren.e91dd6e4b7d885216d6e.jpeg",
     "static/media/Jolande.png": "/static/media/Jolande.cf0a7b8ec7210a729bb8.png",
+    "static/media/high-tea.jpeg": "/static/media/high-tea.0c24d3a864efef09b418.jpeg",
+    "static/media/tante-ellie-uitserveren.jpeg": "/static/media/tante-ellie-uitserveren.fd838c1144c22b0d5826.jpeg",
     "static/media/main-achtergrond.jpeg": "/static/media/main-achtergrond.a3c156e98542978d0b21.jpeg",
-    "static/media/4.jpeg": "/static/media/4.5bf37807e1a7df49a4d2.jpeg",
-    "static/media/3.jpeg": "/static/media/3.fe72b21161ae26bd396d.jpeg",
     "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f9dca3c346851.jpg",
+    "static/media/close-up.jpeg": "/static/media/close-up.fc852e86db91fb7397c9.jpeg",
+    "static/media/jolande-koffie-zetten.jpeg": "/static/media/jolande-koffie-zetten.6cb19c763009faca246c.jpeg",
+    "static/media/koek.jpeg": "/static/media/koek.681b3440599405494a56.jpeg",
+    "static/media/koffie-zetten.jpeg": "/static/media/koffie-zetten.f48b380475a90a03074d.jpeg",
     "static/media/1.jpeg": "/static/media/1.7d9379336f4d33241858.jpeg",
+    "static/media/kopje-koffie.jpeg": "/static/media/kopje-koffie.1656a95ea7b3de080907.jpeg",
+    "static/media/broodplank.jpeg": "/static/media/broodplank.7eff385eec8fd4cef074.jpeg",
     "static/media/ilya-yakover.jpg": "/static/media/ilya-yakover.751c23c0dc4ff39577cf.jpg",
     "static/media/fabio-mangione.jpg": "/static/media/fabio-mangione.488bc249dffdae3556c6.jpg",
     "static/media/uriel-soberanes.jpg": "/static/media/uriel-soberanes.b741f54e9ccbd071a751.jpg",
@@ -31,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.e70193d0.css",
-    "static/js/main.0b0af705.js"
+    "static/js/main.1f6ae3f8.js"
   ]
 }

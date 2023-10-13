@@ -34,19 +34,54 @@ import {
 
 const items = [
   {
+    src: require("assets/img/carousel/tante-ellie-uitserveren.jpeg"),
+    altText: "Somewhere",
+    caption: "Somewhere",
+  },
+  {
     src: require("assets/img/carousel/1.jpeg"),
     altText: "Somewhere",
     caption: "Somewhere",
   },
   {
-    src: require("assets/img/carousel/3.jpeg"),
+    src: require("assets/img/carousel/jolande-koffie-zetten.jpeg"),
+    altText: "Somewhere",
+    caption: "Somewhere",
+  },
+  {
+    src: require("assets/img/carousel/kopje-koffie.jpeg"),
+    altText: "Somewhere",
+    caption: "Somewhere",
+  },
+  {
+    src: require("assets/img/carousel/high-tea.jpeg"),
+    altText: "Somewhere",
+    caption: "Somewhere",
+  },
+  {
+    src: require("assets/img/carousel/broodplank.jpeg"),
+    altText: "Somewhere",
+    caption: "Somewhere",
+  },
+  {
+    src: require("assets/img/carousel/high-tea-uitserveren.jpeg"),
     altText: "Somewhere else",
     caption: "Somewhere else",
   },
   {
-    src: require("assets/img/carousel/4.jpeg"),
+    src: require("assets/img/carousel/koffie-zetten.jpeg"),
     altText: "Here it is",
     caption: "Here it is",
+  },
+  {
+    src: require("assets/img/carousel/koek.jpeg"),
+    altText: "Somewhere",
+    caption: "Somewhere",
+  },
+  {
+    src: require("assets/img/carousel/close-up.jpeg"),
+    altText: "Somewhere",
+    caption: "Somewhere",
   },
 ];
 

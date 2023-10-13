@@ -92,6 +92,16 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
+                href="/profile-page"
+                target="_blank"
+                title="Profile"
+              >
+                <p className="d-lg-none">Profile Page</p>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
                 href="https://www.facebook.com/smaakmakerseindhoven/"
                 target="_blank"
                 title="Like us on Facebook"
