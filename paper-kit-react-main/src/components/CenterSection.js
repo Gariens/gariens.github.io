@@ -96,6 +96,7 @@ function CenterSection() {
               <Button className="btn-round" href="mailto:info@bijsmaakmakers.nl" color="warning">
                 Interesse? Mail ons
               </Button>
+              <br/>
             </TabPane>
           </TabContent>
         </Container>
