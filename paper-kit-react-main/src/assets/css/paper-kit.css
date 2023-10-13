@@ -8660,4 +8660,21 @@ td.rdtYear:hover {
   border-bottom-color: #fff;
 }
 
+
+/* Add sticky positioning to the section */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+} 
+/* Add a background color and other styles for the sticky section */
+.sticky {
+  background-color: #fff; /* Change the background color as needed */
+  /* Add other styles as needed */
+}
+/* Add a fade-in animation for the section */
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
 /*# sourceMappingURL=paper-kit.css.map */

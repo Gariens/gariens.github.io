@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d2c060c.css",
-    "main.js": "/static/js/main.0933272a.js",
-    "static/media/Smaakmakers-CrowdaboutNow-campagne.mp4": "/static/media/Smaakmakers-CrowdaboutNow-campagne.b816aaa7f34b41242f07.mp4",
+    "main.css": "/static/css/main.e70193d0.css",
+    "main.js": "/static/js/main.d7576e51.js",
+    "static/media/Smaakmakers-Promotie-Filmpje-v4-FINAL.mp4": "/static/media/Smaakmakers-Promotie-Filmpje-v4-FINAL.5a27921a76bd396c4fe0.mp4",
     "static/media/Melissa.png": "/static/media/Melissa.4e25217ec58c6d236c5b.png",
     "static/media/Jolande.png": "/static/media/Jolande.cf0a7b8ec7210a729bb8.png",
     "static/media/main-achtergrond.jpeg": "/static/media/main-achtergrond.a3c156e98542978d0b21.jpeg",
+    "static/media/4.jpeg": "/static/media/4.5bf37807e1a7df49a4d2.jpeg",
+    "static/media/3.jpeg": "/static/media/3.fe72b21161ae26bd396d.jpeg",
     "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f9dca3c346851.jpg",
-    "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
-    "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
+    "static/media/1.jpeg": "/static/media/1.7d9379336f4d33241858.jpeg",
     "static/media/ilya-yakover.jpg": "/static/media/ilya-yakover.751c23c0dc4ff39577cf.jpg",
-    "static/media/federico-beccari.jpg": "/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
     "static/media/fabio-mangione.jpg": "/static/media/fabio-mangione.488bc249dffdae3556c6.jpg",
     "static/media/uriel-soberanes.jpg": "/static/media/uriel-soberanes.b741f54e9ccbd071a751.jpg",
     "static/media/daniel-olahh.jpg": "/static/media/daniel-olahh.77c0ffac60f9218de675.jpg",
@@ -24,13 +24,13 @@
     "static/media/erik-lucatero-2.jpg": "/static/media/erik-lucatero-2.d09715abe0463c58d6be.jpg",
     "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
     "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
+    "static/media/smaakmakers_white.svg": "/static/media/smaakmakers_white.ffa7cc591935b8a0bb2906c282d737c4.svg",
     "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
-    "static/media/smaakmakers-logo.png": "/static/media/smaakmakers-logo.388b1f6342e81a6edee9.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.3d2c060c.css",
-    "static/js/main.0933272a.js"
+    "static/css/main.e70193d0.css",
+    "static/js/main.d7576e51.js"
   ]
 }

@@ -42,24 +42,10 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1><strong>Voor een onvergetelijk kopje koffie.</strong></h1>
-              <br />
-              <Button 
-              className="btn-round mr-1"
-              color="neutral"
-              target="_blank"
-              outline onClick={toggleModal}
-              >
-                <i className="fa fa-play" />
-                Impressie video
-              </Button>
-              
+              <h1><strong>Voor een onvergetelijk kopje koffie.</strong></h1>           
             </div>
           </Container>
         </div>
-        <h6 className="category category-absolute">
-          Melissa & Jolande
-        </h6>
       </div>
 
       <Modal isOpen={modal} toggle={toggleModal} size="lg">
@@ -69,7 +55,7 @@ function IndexHeader() {
             {/* Replace the video source with your actual video file */}
             <video controls className="embed-responsive-item">
               <source
-                src={require("assets/video/Smaakmakers-CrowdaboutNow-campagne.mp4")}
+                src={require("assets/video/Smaakmakers-Promotie-Filmpje-v4-FINAL - Copy.mp4")}
                 type="video/mp4"
               />
               Your browser does not support the video tag.

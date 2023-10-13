@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 // reactstrap components
 import {
@@ -21,6 +21,8 @@ import {
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import PdfViewerModal from 'components/PdfViewerModal'; 
+import MainSection from "components/MainSection";
 
 // index sections
 import SectionButtons from "views/index-sections/SectionButtons.js";
@@ -37,6 +39,7 @@ import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
 
+
 function Index() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -44,43 +47,126 @@ function Index() {
     return function cleanup() {
       document.body.classList.remove("index");
     };
-  });
+  }, []); 
+
   return (
     <>
       <IndexNavbar />
       <IndexHeader />
+      <div className="main" style={{ background: "#F2EFEB" }}>
+      <MainSection />
+      </div>
       <div className="main">
         <div className="section text-center">
           <Container>
             <Row>
-              <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">De Smaakmakers Visie</h2>
-                <h5 className="description">
-                  Smaakmakers is een koffiecafé in Eindhoven waar we samenwerken
-                  met mensen met dementie. Een plek waar we focussen op alles
-                  wat wél kan. Met duidelijke instructies, wat begeleiding en
-                  een speciale werkwijze serveren we samen de lekkerste
-                  lunchgerechten en natuurlijk goede koffie! Want wij
-                  dromen van een plek voor mensen met dementie, midden in de
-                  maatschappij.
-                </h5>
-                <br />
-                <Button
-                  className="btn-round"
-                  color="info"
-                >
-                  Meer info
-                </Button>
+              <Col md="6">
+                <div id="menu" />
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-tile-56" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Menu</h4>
+                    <br />
+                    <p className="description">
+                      Kom langs voor een aangeklede kop koffie en een heerlijke lunch.
+                    </p>
+                    <PdfViewerModal pdfUrl="/assets/pdf/Menu-oktober-2.0.pdf" /> 
+                    </div>
+                </div>
+              </Col>
+              <Col md="6">
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-sun-fog-29" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Midden in de maatschappij</h4>
+                    <br />
+                    <p>
+                      Ons unieke koffiecafé is gelegen aan het edisonplein in Woensel-west in Eindhoven.
+                    </p>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Open navigatie
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+              <Col md="6">:
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className="nc-icon nc-satisfied" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Mantelzorgers</h4>
+                    <br />
+                    <p>
+                      Wilt u meer informatie over de dagbesteding bekijk
+                      dan de volgende informatie pagina.
+                    </p>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Een dag bij smaakmakers
+                    </Button>
+                  </div>
+                </div>
               </Col>
             </Row>
-            <br />
-            <br />
           </Container>
         </div>
         <div className="section section-dark text-center">
           <Container>
             <h2 className="title">Wie zijn we?</h2>
             <Row>
+              <Col md="6">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require("assets/img/Jolande.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h4">Jolande Verbakel</CardTitle>
+                        <h6 className="card-category">Horeca ondernemer</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      De horecaervaring en - achtergrond neemt Jolande mee naar Smaakmakers. Een perfect duo, al zeggen we het zelf. Niet alleen op zakelijk gebied en ambities, maar ook in de keuken. Beide zijn wij gek op koken, bakken, mensen ontvangen, gezelligheid en bovenal lekker eten. Melissa: ‘Van huis uit heb ik geleerd dat koffie, met gebak natuurlijk, mensen samenbrengt. Een momentje van rust of juist van samenkomen. Ik kan niet wachten om straks het team van Smaakmakers samen te laten komen met de buurt en de rest van Eindhoven of misschien wel Nederland?!’.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-google-plus" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-linkedin" />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
               <Col md="6">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
@@ -145,114 +231,6 @@ function Index() {
                   </CardFooter>
                 </Card>
               </Col>
-              <Col md="6">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/Jolande.png")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Jolande Verbakel</CardTitle>
-                        <h6 className="card-category">Horeca ondernemer</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      De horecaervaring en - achtergrond neemt Jolande mee naar Smaakmakers. Een perfect duo, al zeggen we het zelf. Niet alleen op zakelijk gebied en ambities, maar ook in de keuken. Beide zijn wij gek op koken, bakken, mensen ontvangen, gezelligheid en bovenal lekker eten. Melissa: ‘Van huis uit heb ik geleerd dat koffie, met gebak natuurlijk, mensen samenbrengt. Een momentje van rust of juist van samenkomen. Ik kan niet wachten om straks het team van Smaakmakers samen te laten komen met de buurt en de rest van Eindhoven of misschien wel Nederland?!’.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        <div className="section text-center">
-          <Container>
-            <Row>
-              <Col md="6">
-                <div id="menu" />
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-tile-56" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Menu</h4>
-                    <br />
-                    <p className="description">
-                      Kom langs voor een aangeklede kop koffie en een heerlijke lunch.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      Bekijk het menu
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="6">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Midden in de maatschappij</h4>
-                    <br />
-                    <p>
-                      Ons unieke koffiecafé is gelegen aan het edisonplein in Woensel-west in Eindhoven.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      Open navigatie
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="6">:
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-satisfied" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Mantelzorgers</h4>
-                    <br />
-                    <p>
-                      Wilt u meer informatie over de dagbesteding bekijk
-                      dan de volgende informatie pagina.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      Een dag bij smaakmakers
-                    </Button>
-                  </div>
-                </div>
-              </Col>
             </Row>
           </Container>
         </div>
@@ -304,7 +282,6 @@ function Index() {
         </Container>
         </div>
       </div>
-
       <SectionExamples />
       <DemoFooter />
     </>

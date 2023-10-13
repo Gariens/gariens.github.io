@@ -31,6 +31,9 @@ import {
   Container,
 } from "reactstrap";
 
+// Import your SVG file
+import logo from 'assets/img/smaakmakers_white.svg';
+
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
@@ -66,7 +69,8 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="sm">
       <Container>
         <div className="navbar-translate">
-          <img src={require('assets/img/smaakmakers-logo.png')} alt="Logo" />
+          {/* Use the imported SVG as the source */}
+          <img src={logo} alt="Logo" style={{ width: "200px", height: "auto", marginLeft: "20px" }} />
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
