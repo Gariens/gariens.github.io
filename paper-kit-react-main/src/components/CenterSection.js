@@ -38,6 +38,7 @@ function CenterSection() {
     setSelectedSVG(null);
     setShowPopup(false);
   };
+  
   return (
     <>
         <Container>
@@ -127,6 +128,7 @@ Neem gerust contact op via onderstaande mail knop.
             </TabPane>
           </TabContent>
         </Container>
+
 
        {/* Popup using Reactstrap Modal */}
       <Modal isOpen={showPopup} toggle={closeImagePopup}>
