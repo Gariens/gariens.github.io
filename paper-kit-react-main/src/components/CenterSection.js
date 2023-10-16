@@ -4,9 +4,6 @@ import React, { useState} from "react";
 // reactstrap components
 import {
   Button,
-  Label,
-  FormGroup,
-  Input,
   NavItem,
   NavLink,
   Nav,
@@ -15,6 +12,7 @@ import {
   Container,
   Row,
   Col,
+  Modal,
 } from "reactstrap";
 
 import svgImage1 from "assets/img/menu-1.svg"; // Import the first SVG image
@@ -37,6 +35,7 @@ function CenterSection() {
   };
 
   const closeImagePopup = () => {
+    setSelectedSVG(null);
     setShowPopup(false);
   };
   return (
@@ -52,7 +51,7 @@ function CenterSection() {
                       toggle("1");
                     }}
                   >
-                    Menu
+                    <h4>Menu</h4>
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -62,7 +61,7 @@ function CenterSection() {
                       toggle("2");
                     }}
                   >
-                    Dagbesteding
+                    <h4>Dagbesteding</h4>
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -103,6 +102,7 @@ function CenterSection() {
                 </Col>
                 
               </Row>
+              
             </TabPane>
             <TabPane className="text-center" tabId="2" id="following">
               <h3 className="text-muted">Smaakmakers is een koffiecafé waar samen wordt gewerkt met thuiswonende mensen met dementie. Wij combineren horeca met dagbesteding. Het is een plek waar we focussen op alles wat wél kan. Met duidelijke instructies en begeleiding serveren we samen de lekkerste lunchgerechten en natuurlijk goede koffie!
@@ -128,28 +128,27 @@ Neem gerust contact op via onderstaande mail knop.
           </TabContent>
         </Container>
 
-        {showPopup && (
-        <Container className="ml-auto mr-auto" md="15">
+       {/* Popup using Reactstrap Modal */}
+      <Modal isOpen={showPopup} toggle={closeImagePopup}>
         <div className="image-popup">
-        <div className="image-popup-content">
-          <span
-            className="close-popup"
-            onClick={closeImagePopup}
-            style={{ cursor: "pointer" }}
-          >
-            &times;
-          </span>
-          <img
-            src={selectedSVG}
-            alt="Selected Image"
-            className="img-fluid"
-          />
+          <div className="image-popup-content">
+            <span
+              className="close-popup"
+              onClick={closeImagePopup}
+              style={{ cursor: "pointer" }}
+            >
+              &times;
+            </span>
+            <img
+              src={selectedSVG}
+              alt="Selected Image"
+              className="img-fluid"
+            />
+          </div>
         </div>
-      </div>
-      </Container>
-      )}
+      </Modal>
     </>
   );
-};
+}
 
 export default CenterSection;

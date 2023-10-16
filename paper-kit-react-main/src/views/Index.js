@@ -81,7 +81,7 @@ function Index() {
                       </div>
                     </a>
                     <p className="card-description text-center">
-                    De horecaervaring en - achtergrond neemt Jolande mee naar Smaakmakers. Een perfect duo, al zeggen we het zelf. Niet alleen op zakelijk gebied en ambities, maar ook in de keuken. Beide zijn wij gek op koken, bakken, mensen ontvangen, gezelligheid en bovenal lekker eten. Melissa: ‘Van huis uit heb ik geleerd dat koffie, met gebak natuurlijk, mensen samenbrengt. Een momentje van rust of juist van samenkomen. Nu brengen wij het team van Smaakmakers samen  met de buurt en de rest van Eindhoven.
+                    De horecaervaring en - achtergrond neemt Jolande mee naar Smaakmakers. Een perfect duo, al zeggen we het zelf. Niet alleen op zakelijk gebied en ambities, maar ook in de keuken. Beide zijn wij gek op koken, bakken, mensen ontvangen, gezelligheid en bovenal lekker eten. Van huis uit heb ik geleerd dat koffie, met gebak natuurlijk, mensen samenbrengt. Een momentje van rust of juist van samenkomen. Nu brengen wij het team van Smaakmakers samen  met de buurt en de rest van Eindhoven.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">

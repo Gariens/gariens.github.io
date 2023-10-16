@@ -89,6 +89,7 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+            {/* 
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -99,6 +100,7 @@ function IndexNavbar() {
                 <p className="d-lg-none">Profile Page</p>
               </NavLink>
             </NavItem>
+            */}
             <NavItem>
               <NavLink
                 data-placement="bottom"
