@@ -17,10 +17,10 @@ function MainSection() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="5">
-                <h2 className="title">Onvergetelijk?</h2>
-                <h5 className="description">
-                Bij Smaakmakers wordt jouw kopje koffie en gebakje bereid en geserveerd met de liefde, aandacht en hulp van mensen met dementie. Samen focussen wij op alles wat wél kan. Smaakt het naar meer?
-                </h5>
+                <h2 className="title">Onvergetelijk</h2>
+                <h3 className="description">
+                Bij Smaakmakers wordt jouw kopje koffie, gebakje of lunch bereid en geserveerd met de liefde, aandacht en hulp van mensen met dementie. Samen focussen wij op alles wat wél kan. Smaakt het naar meer?
+                </h3>
                 <br />
                 <Button 
               className="btn-round mr-1 black-text"

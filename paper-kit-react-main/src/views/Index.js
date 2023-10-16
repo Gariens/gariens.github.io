@@ -81,34 +81,11 @@ function Index() {
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      De horecaervaring en - achtergrond neemt Jolande mee naar Smaakmakers. Een perfect duo, al zeggen we het zelf. Niet alleen op zakelijk gebied en ambities, maar ook in de keuken. Beide zijn wij gek op koken, bakken, mensen ontvangen, gezelligheid en bovenal lekker eten. Melissa: ‘Van huis uit heb ik geleerd dat koffie, met gebak natuurlijk, mensen samenbrengt. Een momentje van rust of juist van samenkomen. Ik kan niet wachten om straks het team van Smaakmakers samen te laten komen met de buurt en de rest van Eindhoven of misschien wel Nederland?!’.
+                    De horecaervaring en - achtergrond neemt Jolande mee naar Smaakmakers. Een perfect duo, al zeggen we het zelf. Niet alleen op zakelijk gebied en ambities, maar ook in de keuken. Beide zijn wij gek op koken, bakken, mensen ontvangen, gezelligheid en bovenal lekker eten. Melissa: ‘Van huis uit heb ik geleerd dat koffie, met gebak natuurlijk, mensen samenbrengt. Een momentje van rust of juist van samenkomen. Nu brengen wij het team van Smaakmakers samen  met de buurt en de rest van Eindhoven.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
+                    
                   </CardFooter>
                 </Card>
               </Col>
@@ -126,53 +103,14 @@ function Index() {
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Melissa de Laat</CardTitle>
-                        <h6 className="card-category">Concept ontwikkelaar in de dementiezorg</h6>
+                        <h6 className="card-category">Conceptontwikkelaar in de dementiezorg</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      Als conceptontwikkelaar binnen de dementiezorg (Melissa)
-                      en voormalig eigenaar van een eigen horecaonderneming
-                      (Jolande), gaan wij deze uitdaging aan. Melissa:
-                      ‘De afgelopen 4 jaar heb ik veel ervaring opgedaan wat
-                      betreft koken met mensen met dementie en de effecten hiervan.
-                      Als conceptontwikkelaar heb ik namelijk 4 jaar geleden het project
-                      Groen & Grijs, kookworkshops voor grootouders met dementie
-                      en hun kleinkinderen, ontwikkeld en uitgerold binnen de
-                      regio midden-Brabant. De sfeer en het zichtbare effect
-                      tijdens zo’n workshop toveren een glimlach op ieders gezicht.
-                      De meest bijzondere effecten van samen koken? We focussen ons
-                      automatisch op wat we samen allemaal nog wel kunnen. En het
-                      verbetert de onderlinge relatie - van zorgen voor, naar
-                      samenwerken. Na deze ervaringen smaakte het bij mij al heel
-                      snel naar meer! Het begin van een droom. Een eigen plek,
-                      waar we dagelijks samen koken en focussen op wat wel kan.’
+                    Als conceptontwikkelaar binnen de dementiezorg heb ik de afgelopen 5 jaar veel ervaring opgedaan wat betreft koken met mensen met dementie en de effecten hiervan. Als conceptontwikkelaar heb ik namelijk 5 jaar geleden het project Groen & Grijs, kookworkshops voor grootouders met dementie en hun kleinkinderen, ontwikkeld en uitgerold binnen de regio midden-Brabant. De sfeer en het zichtbare effect tijdens zo’n workshop toveren een glimlach op ieders gezicht. Daarnaast ben ik 3 jaar lang werkzaam geweest als zinvolle dagcoach op een PG-afdeling. Ook hier heb ik ervaren hoe belangrijk het is om een gevoel van nut te ervaren en onderdeel te blijven van onze maatschappij. Na deze ervaringen smaakte het bij mij al heel snel naar meer! Het begin van een droom. Een eigen plek, waar we dagelijks samen koken en focussen op wat wel kan. Van zorgen voor, naar samenwerken. Dat is wat wij bij Smaakmakers doen.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
                   </CardFooter>
                 </Card>
               </Col>
@@ -185,18 +123,11 @@ function Index() {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">Openingstijden</h2>
                 <h5 className="description">
-                Di t/ t/m Za van 09:30 - 16:00
+                di t/m za van 09:30 - 16:00
                 </h5>
                 <br />
               </Col>
             </Row>
-            <Col className="ml-auto mr-auto" md="4">
-              <Button className="btn-fill" href="mailto:info@bijsmaakmakers.nl" color="danger" size="lg">
-                Send Message
-              </Button>
-              <br />
-              <br />
-            </Col>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">Contactgegevens</h2>
@@ -207,8 +138,8 @@ function Index() {
               </Col>
             </Row>
             <Col className="ml-auto mr-auto" md="4">
-              <Button className="btn-fill" href="https://goo.gl/maps/AowUK7G7KKKMwma77" color="danger" size="lg">
-                Navigate
+              <Button className="btn-fill" href="https://goo.gl/maps/AowUK7G7KKKMwma77" color="warning" size="lg">
+                Navigeren
               </Button>
             </Col>
           </Container>

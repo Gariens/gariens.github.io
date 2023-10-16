@@ -1,22 +1,5 @@
-/*!
 
-=========================================================
-* Paper Kit React - v1.3.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-import React from "react";
+import React, { useState} from "react";
 
 // reactstrap components
 import {
@@ -34,17 +17,28 @@ import {
   Col,
 } from "reactstrap";
 
-import samplePDF from "../assets/pdf/Menu-oktober-2.0.pdf"; // Import the PDF file
-
+import svgImage1 from "assets/img/menu-1.svg"; // Import the first SVG image
+import svgImage2 from "assets/img/menu-2.svg"; // Import the second SVG image
 
 function CenterSection() {
-    const [activeTab, setActiveTab] = React.useState("1");
-  
-    const toggle = (tab) => {
-      if (activeTab !== tab) {
-        setActiveTab(tab);
-      }
-    };
+  const [activeTab, setActiveTab] = useState("1");
+  const [showPopup, setShowPopup] = useState(false);
+  const [selectedSVG, setSelectedSVG] = useState(null);
+
+  const toggle = (tab) => {
+    if (activeTab !== tab) {
+      setActiveTab(tab);
+    }
+  };
+
+  const openImagePopup = (svg) => {
+    setSelectedSVG(svg);
+    setShowPopup(true);
+  };
+
+  const closeImagePopup = () => {
+    setShowPopup(false);
+  };
   return (
     <>
         <Container>
@@ -68,7 +62,7 @@ function CenterSection() {
                       toggle("2");
                     }}
                   >
-                    Mantelzorg
+                    Dagbesteding
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -78,21 +72,54 @@ function CenterSection() {
           <TabContent className="following" activeTab={activeTab}>
             <TabPane tabId="1" id="follows">
               <Row>
-                <Col className="ml-auto mr-auto" md="6">
+                <Col className="ml-auto mr-auto" md="15">
                   <ul className="list-unstyled follows">
                     <li>
                       <Row>
-                        <object data={samplePDF} type="application/pdf" width="100%" height="500">
-                            This browser does not support PDFs. Please download the PDF to view it.
-                        </object>
+                      <div className="image-container">
+                      <img
+                        src={svgImage1}
+                        alt="Image 1"
+                        onClick={() => openImagePopup(svgImage1)}
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="image-container" style={{ marginLeft: "20px" }}>
+                      <img
+                        src={svgImage2}
+                        alt="Image 2"
+                        onClick={() => openImagePopup(svgImage2)}
+                        className="img-fluid"
+                      />
+                    </div>
                       </Row>
                     </li>
                   </ul>
+                  <Button className="btn-round" href="mailto:info@bijsmaakmakers.nl" color="warning">
+                Reserveren? 
+                <br/>
+                Mail ons!
+              </Button>
                 </Col>
+                
               </Row>
             </TabPane>
             <TabPane className="text-center" tabId="2" id="following">
-              <h3 className="text-muted">Wij combineren horeca met een zinvolle daginvulling. Door te focussen op alles wat wél kanwij samen met thuiswonende mensen met dementie. Door te focussen op alles wat wél kan, bereiden en serveren wij samen de lekkerste gebakjes, lunchgerechten en natuurlijk koffie. bereid en geserveerd met de liefde, aandacht en hulp van mensen met dementie. e van diverse huisgemaakte en nostalgische gebakjes, lunch en natuurlijk koffie. je van huisgemaakt gebak, herkenbare Smaakmakers wordt een koffiecafé waar we naast heerlijke koffie en andere (warme) dranken, ook een kleine lunchkaart en huisgemaakte zoetigheden serveren. We gaan werken met herkenbare producten en recepten, een ode aan het ‘gewone’ broodje. Wij serveren werken wij samen met mensen met dementie. Wij combineren horeca met dagbesteding. Ons koffiecafé is een plek waar wij focussen op alles wat wél kan. Met duidelijke instructies, wat begeleiding en een speciale werkwijze serveren we samen de lekkerste lunchgerechten en natuurlijk goede koffie! Want wij dromen van een plek voor mensen met dementie, midden in de maatschappij</h3>
+              <h3 className="text-muted">Smaakmakers is een koffiecafé waar samen wordt gewerkt met thuiswonende mensen met dementie. Wij combineren horeca met dagbesteding. Het is een plek waar we focussen op alles wat wél kan. Met duidelijke instructies en begeleiding serveren we samen de lekkerste lunchgerechten en natuurlijk goede koffie!
+<br/>
+<br/>
+<h6 className="card-category">Voor wie?</h6>
+<br/>
+Onze aandacht gaat uit naar thuiswonende mensen met dementie met behoefte aan een zinvolle daginvulling. Bij Smaakmakers kunt u of uw naaste terecht voor een of meerdere dagdelen (zinvolle) dagbesteding. Wij zijn van dinsdag t/m zaterdag geopend voor zowel horeca als dagbesteding. Financiering kan doormiddel van PGB, hiervoor is een indicatie vereist. Wij denken graag met u mee m.b.t. de aanvraag hiervan.
+<br/>
+<br/>
+Samen kijken we waar iemand bij kan en wil ondersteunen. Denk aan het snijden van de groenten, beleggen van broodjes, het uitserveren van eten en drinken of wat meer werkzaamheden 'achter de schermen' zoals het voorbereiden van bestekzakjes of to-go producten. Het is een kleine zaak met een ontspannen sfeer, waar iedereen wordt geprikkeld om zijn eigen kwaliteiten te laten zien.
+Als horecazaak zijn wij toegankelijk voor iedereen. Dit zorgt voor mooie ontmoetingen tussen gasten en deelnemers, diverse sociale prikkels op een dag en een sterk gevoel van nut en zingeving.
+Wilt u meer weten over de mogelijkheden voor dagbesteding bij Smaakmakers?
+<br/>
+<br/>
+Neem gerust contact op via onderstaande mail knop.
+              </h3>
               <Button className="btn-round" href="mailto:info@bijsmaakmakers.nl" color="warning">
                 Interesse? Mail ons
               </Button>
@@ -100,6 +127,27 @@ function CenterSection() {
             </TabPane>
           </TabContent>
         </Container>
+
+        {showPopup && (
+        <Container className="ml-auto mr-auto" md="15">
+        <div className="image-popup">
+        <div className="image-popup-content">
+          <span
+            className="close-popup"
+            onClick={closeImagePopup}
+            style={{ cursor: "pointer" }}
+          >
+            &times;
+          </span>
+          <img
+            src={selectedSVG}
+            alt="Selected Image"
+            className="img-fluid"
+          />
+        </div>
+      </div>
+      </Container>
+      )}
     </>
   );
 };
