@@ -102,9 +102,11 @@ useEffect(() => {
               <br />
               Neem gerust contact op via onderstaande mail knop.
             </h3>
+            <br />
             <Button className="btn-round" href="mailto:info@bijsmaakmakers.nl" color="warning">
               Interesse? Mail ons
             </Button>
+            <br />
             <br />
           </TabPane>
           <TabPane tabId="2" id="following">
