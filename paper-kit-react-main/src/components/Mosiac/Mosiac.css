@@ -1,0 +1,15 @@
+/* Mosaic.css */
+
+.mosaic-image {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .mosaic-image:hover {
+    transform: scale(1.05);
+  }
+  

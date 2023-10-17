@@ -89,18 +89,20 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            {/* 
+            
             <NavItem>
+              {/*
               <NavLink
                 data-placement="bottom"
-                href="/profile-page"
+                href="/Mosiac"
                 target="_blank"
                 title="Profile"
               >
-                <p className="d-lg-none">Profile Page</p>
+                <p className="d-lg-none">Dagbesteding</p>
               </NavLink>
+          */}
             </NavItem>
-            */}
+            
             <NavItem>
               <NavLink
                 data-placement="bottom"
