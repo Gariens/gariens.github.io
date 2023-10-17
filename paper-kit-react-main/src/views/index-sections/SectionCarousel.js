@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -34,54 +16,43 @@ import {
 
 const items = [
   {
+    src: require("assets/img/main-page-tante-ellie-correctie.jpg"),
+  },
+  {
+    src: require("assets/img/mellie-en-ellie.JPG"),
+  },
+  {
+    src: require("assets/img/broodje-champions.JPG"),
+  },
+  {
     src: require("assets/img/carousel/tante-ellie-uitserveren.jpeg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
   },
   {
     src: require("assets/img/carousel/1.jpeg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
   },
   {
     src: require("assets/img/carousel/jolande-koffie-zetten.jpeg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
   },
   {
     src: require("assets/img/carousel/kopje-koffie.jpeg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
   },
   {
     src: require("assets/img/carousel/high-tea.jpeg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
   },
   {
     src: require("assets/img/carousel/broodplank.jpeg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
   },
   {
     src: require("assets/img/carousel/high-tea-uitserveren.jpeg"),
-    altText: "Somewhere else",
-    caption: "Somewhere else",
   },
   {
     src: require("assets/img/carousel/koffie-zetten.jpeg"),
-    altText: "Here it is",
-    caption: "Here it is",
   },
   {
     src: require("assets/img/carousel/koek.jpeg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
   },
   {
     src: require("assets/img/carousel/close-up.jpeg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
   },
 ];
 
