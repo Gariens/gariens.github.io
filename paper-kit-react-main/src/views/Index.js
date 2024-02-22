@@ -95,7 +95,7 @@ function Index() {
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/Melissa.png")}
+                        src={require("assets/img/me1.png")}
                       />
                     </a>
                   </div>

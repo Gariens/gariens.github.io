@@ -16,22 +16,22 @@ import {
 
 const items = [
   {
-    src: require("assets/img/main-page-tante-ellie-correctie.jpg"),
+    src: require("assets/img/mp1.jpg"),
   },
   {
-    src: require("assets/img/mellie-en-ellie.JPG"),
+    src: require("assets/img/me1.JPG"),
   },
   {
     src: require("assets/img/broodje-champions.JPG"),
   },
   {
-    src: require("assets/img/carousel/tante-ellie-uitserveren.jpeg"),
+    src: require("assets/img/carousel/te1.jpeg"),
   },
   {
     src: require("assets/img/carousel/1.jpeg"),
   },
   {
-    src: require("assets/img/carousel/jolande-koffie-zetten.jpeg"),
+    src: require("assets/img/carousel/j1.jpeg"),
   },
   {
     src: require("assets/img/carousel/kopje-koffie.jpeg"),
