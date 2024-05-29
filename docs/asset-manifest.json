@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.49135103.css",
-    "main.js": "/static/js/main.b4be3bf5.js",
+    "main.css": "/static/css/main.b328e513.css",
+    "main.js": "/static/js/main.d735de7a.js",
     "static/media/Smaakmakers-Promotie-Film.mp4": "/static/media/Smaakmakers-Promotie-Film.5475989f546b11e404ca.mp4",
-    "static/media/menu-2.svg": "/static/media/menu-2.12b47618904746330d3120c4bbf1634b.svg",
+    "static/media/menu-smaakmakers-koffie.png": "/static/media/menu-smaakmakers-koffie.8531c2c53fcb9c6ffdce.png",
+    "static/media/menu-smaakmakers-lunch.png": "/static/media/menu-smaakmakers-lunch.e45fb13bd6b16562b285.png",
     "static/media/me1.png": "/static/media/me1.4e25217ec58c6d236c5b.png",
-    "static/media/menu-1.svg": "/static/media/menu-1.a7fba311e79ae47c0c126a8d400ec316.svg",
     "static/media/mp1.jpg": "/static/media/mp1.797b0162a960b80f8425.jpg",
     "static/media/high-tea-uitserveren.jpeg": "/static/media/high-tea-uitserveren.e91dd6e4b7d885216d6e.jpeg",
     "static/media/Jolande.png": "/static/media/Jolande.cf0a7b8ec7210a729bb8.png",
     "static/media/high-tea.jpeg": "/static/media/high-tea.0c24d3a864efef09b418.jpeg",
     "static/media/te1.jpeg": "/static/media/te1.fd838c1144c22b0d5826.jpeg",
-    "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/close-up.jpeg": "/static/media/close-up.fc852e86db91fb7397c9.jpeg",
     "static/media/j1.jpeg": "/static/media/j1.6cb19c763009faca246c.jpeg",
     "static/media/koek.jpeg": "/static/media/koek.681b3440599405494a56.jpeg",
@@ -19,15 +18,8 @@
     "static/media/1.jpeg": "/static/media/1.7d9379336f4d33241858.jpeg",
     "static/media/kopje-koffie.jpeg": "/static/media/kopje-koffie.1656a95ea7b3de080907.jpeg",
     "static/media/broodplank.jpeg": "/static/media/broodplank.7eff385eec8fd4cef074.jpeg",
-    "static/media/ilya-yakover.jpg": "/static/media/ilya-yakover.751c23c0dc4ff39577cf.jpg",
-    "static/media/uriel-soberanes.jpg": "/static/media/uriel-soberanes.b741f54e9ccbd071a751.jpg",
-    "static/media/profile-page.png": "/static/media/profile-page.3a626caf205d1143f192.png",
     "static/media/broodje-champions.JPG": "/static/media/broodje-champions.73b0d4303d5d882917c1.JPG",
-    "static/media/landing-page.png": "/static/media/landing-page.80158096b63fb4a837e1.png",
     "static/media/me1.JPG": "/static/media/me1.8d6dc9f70db35712b551.JPG",
-    "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.09841708956117e93a7b.jpg",
-    "static/media/kaci-baum-2.jpg": "/static/media/kaci-baum-2.9b929eea6c1ef2b4dbb4.jpg",
-    "static/media/erik-lucatero-2.jpg": "/static/media/erik-lucatero-2.d09715abe0463c58d6be.jpg",
     "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
     "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
     "static/media/smaakmakers_white.svg": "/static/media/smaakmakers_white.ffa7cc591935b8a0bb2906c282d737c4.svg",
@@ -36,7 +28,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.49135103.css",
-    "static/js/main.b4be3bf5.js"
+    "static/css/main.b328e513.css",
+    "static/js/main.d735de7a.js"
   ]
 }

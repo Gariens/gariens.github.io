@@ -8,11 +8,11 @@ import {
   CardBody,
   CardFooter,
   CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+//  Form,
+//  Input,
+//  InputGroupAddon,
+//  InputGroupText,
+//  InputGroup,
   Container,
   Row,
   Col,
@@ -20,26 +20,26 @@ import {
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
-import PdfViewerModal from 'components/PdfViewerModal'; 
+//import DemoFooter from "components/Footers/DemoFooter.js";
+//import PdfViewerModal from 'components/PdfViewerModal'; 
 import MainSection from "components/MainSection";
 
 // index sections
-import SectionButtons from "views/index-sections/SectionButtons.js";
-import SectionNavbars from "views/index-sections/SectionNavbars.js";
-import SectionNavigation from "views/index-sections/SectionNavigation.js";
-import SectionProgress from "views/index-sections/SectionProgress.js";
-import SectionNotifications from "views/index-sections/SectionNotifications.js";
-import SectionTypography from "views/index-sections/SectionTypography.js";
-import SectionJavaScript from "views/index-sections/SectionJavaScript.js";
-import SectionCarousel from "views/index-sections/SectionCarousel.js";
-import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
-import SectionDark from "views/index-sections/SectionDark.js";
-import SectionLogin from "views/index-sections/SectionLogin.js";
-import SectionExamples from "views/index-sections/SectionExamples.js";
-import SectionDownload from "views/index-sections/SectionDownload.js";
+//import SectionButtons from "views/index-sections/SectionButtons.js";
+//import SectionNavbars from "views/index-sections/SectionNavbars.js";
+//import SectionNavigation from "views/index-sections/SectionNavigation.js";
+//import SectionProgress from "views/index-sections/SectionProgress.js";
+//import SectionNotifications from "views/index-sections/SectionNotifications.js";
+//import SectionTypography from "views/index-sections/SectionTypography.js";
+//import SectionJavaScript from "views/index-sections/SectionJavaScript.js";
+//import SectionCarousel from "views/index-sections/SectionCarousel.js";
+//import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
+//import SectionDark from "views/index-sections/SectionDark.js";
+//import SectionLogin from "views/index-sections/SectionLogin.js";
+//import SectionExamples from "views/index-sections/SectionExamples.js";
+//import SectionDownload from "views/index-sections/SectionDownload.js";
 import CenterSection from "components/CenterSection";
-
+import { Helmet } from 'react-helmet';
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -52,13 +52,38 @@ function Index() {
 
   return (
     <>
+      <Helmet>
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "koffiecafe",
+            "name": "Smaakmakers Onvergetelijk Koffiecafé, de zinvolle dagbesteding",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Edisonplein 6a",
+              "addressLocality": "Eindhoven",
+              "postalCode": "5621 HV",
+              "addressCountry": "NL"
+            },
+            "description": "Zinvolle dagbesteding voor mensen met dementie in combinatie met koffie, gebak en lunch bij Smaakmakers Onvergetelijk Koffiecafé in Eindhoven.",
+            "openingHours": "Tu-Sa 09:30-16:00",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 51.45347177962634,
+              "longitude": 5.455193315768007
+            }
+          }
+          `}
+        </script>
+      </Helmet>
       <IndexNavbar />
       <IndexHeader />
-      <div className="main" style={{ background: "#F2EFEB" }}>
+      <main className="main" style={{ background: "#F2EFEB" }}>
       <MainSection />
-      </div>
+      </main>
            <CenterSection />
-      <div className="main">
+      <section className="main">
         <div className="section section-dark text-center">
           <Container>
             <h2 className="title">Wie zijn we?</h2>
@@ -157,7 +182,7 @@ function Index() {
           ></iframe>
         </Container>
         </div>
-      </div>
+      </section>
     </>
   );
 }

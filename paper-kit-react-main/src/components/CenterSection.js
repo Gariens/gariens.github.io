@@ -15,8 +15,8 @@ import {
   Modal,
 } from "reactstrap";
 
-import svgImage1 from "assets/img/menu-1.svg"; // Import the first SVG image
-import svgImage2 from "assets/img/menu-2.svg"; // Import the second SVG image
+import svgImage1 from "assets/img/menu-smaakmakers-koffie.png"; // Import the first SVG image
+import svgImage2 from "assets/img/menu-smaakmakers-lunch.png"; // Import the second SVG image
 
 function CenterSection() {
   const [activeTab, setActiveTab] = useState("1");
