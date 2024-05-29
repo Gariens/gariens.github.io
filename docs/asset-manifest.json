@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b328e513.css",
-    "main.js": "/static/js/main.26efb7d7.js",
+    "main.js": "/static/js/main.d735de7a.js",
     "static/media/Smaakmakers-Promotie-Film.mp4": "/static/media/Smaakmakers-Promotie-Film.5475989f546b11e404ca.mp4",
     "static/media/menu-smaakmakers-koffie.png": "/static/media/menu-smaakmakers-koffie.8531c2c53fcb9c6ffdce.png",
     "static/media/menu-smaakmakers-lunch.png": "/static/media/menu-smaakmakers-lunch.e45fb13bd6b16562b285.png",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.b328e513.css",
-    "static/js/main.26efb7d7.js"
+    "static/js/main.d735de7a.js"
   ]
 }

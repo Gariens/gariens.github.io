@@ -39,7 +39,7 @@ import MainSection from "components/MainSection";
 //import SectionExamples from "views/index-sections/SectionExamples.js";
 //import SectionDownload from "views/index-sections/SectionDownload.js";
 import CenterSection from "components/CenterSection";
-//import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -52,6 +52,31 @@ function Index() {
 
   return (
     <>
+      <Helmet>
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "koffiecafe",
+            "name": "Smaakmakers Onvergetelijk Koffiecafé, de zinvolle dagbesteding",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Edisonplein 6a",
+              "addressLocality": "Eindhoven",
+              "postalCode": "5621 HV",
+              "addressCountry": "NL"
+            },
+            "description": "Zinvolle dagbesteding voor mensen met dementie in combinatie met koffie, gebak en lunch bij Smaakmakers Onvergetelijk Koffiecafé in Eindhoven.",
+            "openingHours": "Tu-Sa 09:30-16:00",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 51.45347177962634,
+              "longitude": 5.455193315768007
+            }
+          }
+          `}
+        </script>
+      </Helmet>
       <IndexNavbar />
       <IndexHeader />
       <main className="main" style={{ background: "#F2EFEB" }}>
